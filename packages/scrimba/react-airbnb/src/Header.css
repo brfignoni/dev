@@ -1,0 +1,9 @@
+.Header {
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.03);
+}
+.Header__logo {
+  width: 80px;
+}

@@ -1,0 +1,16 @@
+[
+	{
+   "title":"11ty Netlify Jumpstart",
+   "imgName":"home"
+	},
+
+	{
+   "title":"About",
+   "imgName":"about"
+	},
+
+	{
+   "title":"Hello&nbsp;World",
+   "imgName":"hello-world"
+	}
+] 

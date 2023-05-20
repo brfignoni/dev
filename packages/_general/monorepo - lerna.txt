@@ -1,0 +1,18 @@
+LERNA : https://lerna.js.org/docs/getting-started
+https://gist.github.com/claraj/e5563befe6c2fb108ad0efb6de47f265
+
+1. Instlar lerna: npx lerna init
+2. npm install para instalar lerna, ya que está como dependencia en package.json, pero no en node_modules.
+3. Crear los proyectos que quiera tener en el directorio "packages"
+4. Iniciar los proyectos con npm init.
+5. Agregar a los proyectos las dependencias necesarias, con "npm install" (dentro de cada proyecto).
+6. npx lerna clean -y : Limpiar las depdendencias instaladas en los packages con "npx lerna clean" en la raíz del proyecto. En este punto las dependencias quedaron registradas en los package.json de los proyectos.
+7. npx lerna bootstrap --hoist: instalar las depdendencias de todos los proyectos, en la raíz del monorepo.
+
+x. npx lerna run build: hace build para todos los proyectos. 
+x. npx lerna add-caching : nos permite cachear "tasks?"
+x. npx lerna clean -y: clean all currently installed dependencies.
+x. npm run start: en la raíz del prouecto, inicializa todos los npm start de todos los proyectos.
+x. npx lerna run build --scope=remixapp : hace build para el proyecto "remixapp"
+
+

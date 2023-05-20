@@ -1,0 +1,36 @@
+1. Pensar muy bien los nombres de los atributos de entrada:
+El nombre de un atributo puede ser modificado luego de ser creado, pero
+se perdera en la base de datos la tabla que llevaba el nombre original, y
+por lo tanto tambien los datos relacionados.
+
+---------------------------------------------------------------------------
+
+2. Nombres de las entidades:
+Seguir el estilo de nombrado que viene con Strapi por defecto: pascal case.
+Ejemplos:
+- User
+- ProductOrder
+
+---------------------------------------------------------------------------
+
+3. Nombres de los atributos:
+Seguir el estilo de nombrado que viene con Strapi por defecto: camel case.
+Ejemplo:
+- resetPasswordToken
+
+---------------------------------------------------------------------------
+
+4. Nombres de las colecciones:
+Los nombres de las colecciones, se escriben en singular. Ejemplo:
+- Classroom
+- User
+
+El propio Strapi se encarga de generar una version en plural para la ruta
+de la api.
+
+---------------------------------------------------------------------------
+
+5. Base de datos:
+Los detalles de la base de datos estan en config/database.js
+En el caso de sqlLite (la base de datos sugerida para desarrollo local) la base
+se guarda en un archivo: data.db 

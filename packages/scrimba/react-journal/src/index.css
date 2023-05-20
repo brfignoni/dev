@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(232, 232, 232);
+}

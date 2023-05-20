@@ -1,0 +1,12 @@
+- Numeric conversion, unary +
+
+El operador + aplicado a un solo valor, no tiene ningún efecto en números.
+Pero si el valor no es un número, el operador + lo convierte a número.
+
++ 1         -> 1
++ ""        -> 0
++ "hola"    -> NaN
++ "23"      -> 23
++ true      -> 1
++ false     -> 0
+

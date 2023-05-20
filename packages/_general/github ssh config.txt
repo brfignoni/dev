@@ -1,0 +1,4 @@
+github ssh config
+
+- https://www.youtube.com/watch?v=L7D7rSUaCf0&t=104s
+- https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent

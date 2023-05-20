@@ -1,0 +1,11 @@
+.Header {
+  background-color: #f55a5a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15.5px 0;
+}
+.Header img {
+  margin-right: 8px;
+}

@@ -1,0 +1,19 @@
+.Header {
+  background-color: #672280;
+  color: white;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+}
+.Header__title {
+  font-size: 20px;
+  margin-right: auto;
+}
+.Header__subtitle {
+  font-size: 16px;
+  font-weight: 400;
+}
+.Header__image {
+  height: 30px;
+  margin-right: 8px;
+}

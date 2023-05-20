@@ -1,0 +1,27 @@
+.Meme {
+  padding: 16px;
+}
+.Meme__form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+.Meme__input {
+  border: 1px solid rgb(181, 181, 181);
+  font-size: 12px;
+}
+.Meme__input,
+.Meme__button {
+  padding: 10px;
+  border-radius: 4px;
+}
+.Meme__button {
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: white;
+  border: none; 
+  grid-column: 1 / -1;
+}
+.Meme__image {
+  margin-top: 16px;
+  width: 100%;
+}

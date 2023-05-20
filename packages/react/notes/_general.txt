@@ -1,0 +1,8 @@
+Projects to do:
+
+1. Github profile page
+2. To do list app
+3. E-commerce site using React + Redux
+4. Weather application
+5. Registration form
+6. Notion clone!
