@@ -1,0 +1,11 @@
+workspaces npm: https://docs.npmjs.com/cli/v9/using-npm/workspaces
+
+---
+
+crear nuevo package:
+npm init -w ./packages/a --yes
+
+---
+
+instalar paquete solo en una depedencia (a): 
+npm install abbrev -w a

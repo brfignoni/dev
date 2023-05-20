@@ -1,0 +1,7 @@
+{
+  "name": "dev",
+  "workspaces": [
+    "packages\\vite",
+    "packages\\bootstrap"
+  ]
+}
