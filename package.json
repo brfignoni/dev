@@ -2,6 +2,8 @@
   "name": "dev",
   "workspaces": [
     "packages\\_a",
-    "packages\\_b"
+    "packages\\_b",
+    "packages\\vite",
+    "packages\\bootstrap"
   ]
 }
